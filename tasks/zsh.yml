@@ -1,2 +1,5 @@
 - name: Setup OH-MY-ZSH
-  
+  user:
+    name: "nick"
+    shell: /bin/zsh
+    
