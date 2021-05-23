@@ -1,0 +1,21 @@
+Host pve.homelab.io
+  HostName 192.168.0.100
+  User root
+
+Host git-server.homelab.io
+  HostName 192.168.0.4
+  User git
+
+Host workstation.homelab.io
+  HostName 192.168.0.14
+  IdentityFile /home/nick/.ssh/id_rsa
+  Port 2224
+  User nick
+
+Host pve2.homelab.io
+  HostName 192.168.0.101
+  User root
+
+Host docker-manager.homelab.io
+  HostName 192.168.0.4
+  User pi
