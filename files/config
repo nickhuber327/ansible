@@ -8,7 +8,6 @@ Host git-server.homelab.io
 
 Host workstation.homelab.io
   HostName 192.168.0.14
-  IdentityFile /home/nick/.ssh/id_rsa
   Port 2224
   User nick
 
